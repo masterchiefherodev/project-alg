@@ -50,7 +50,7 @@ void loop() {
   // Leyendo la frecuencia de salida del sensor
   frecuenciaVerde = pulseIn(salidaSensor, HIGH);
   delay(200);
- 
+
   // Definiendo la lectura de los fotodiodos con filtro azul
   digitalWrite(S2,LOW);
   digitalWrite(S3,HIGH);
